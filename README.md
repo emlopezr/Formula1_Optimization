@@ -10,12 +10,12 @@
 - Maria Paula Duque Muñoz - [maduquem@unal.edu.co](mailto:maduquem@unal.edu.co)
 - Johan Madroñero Cuervo - [jmadronero@unal.edu.co](mailto:jmadronero@unal.edu.co)
 
-## Código
-Se puede encontrar el código de Python en los archivos A1 y A2
+## Código e informe
+Se puede encontrar el código de Python en el archivo [Formula1_Optimization.ipynb](https://github.com/lopezemmanuel/Formula1_Optimization/blob/main/Formula1_Optimization.ipynb). A su vez, se puede encontrar el informe académico detallado del proyecto en el archivo [Formula1_Optimization.pdf](https://github.com/lopezemmanuel/Formula1_Optimization/blob/main/Formula1_Optimization.pdf)
 
 ## Planteamiento
 
-IMAGEN 1
+![image1](https://github.com/lopezemmanuel/Formula1_Optimization/assets/45053254/e4a0ad69-bd7b-49e3-a5e8-9d08adb8b711)
 
 ## Solución
 ### Preprocesamiento de los datos
@@ -128,7 +128,7 @@ Ruta:
 
 Se observa que esta aproximación disminuye la distancia total recorrida comparado con la actual en un 61.2%, pero esta aproximación no es totalmente óptima, por lo que en los lugares aledaños a los "problemáticos" se opta por calcular la organización de estos nodos usando búsqueda exhaustiva
 
-IMAGEN 2
+![image2](https://github.com/lopezemmanuel/Formula1_Optimization/assets/45053254/e5e9eba4-94e5-4ad3-beea-6dafdbfe6c99)
 
 ### Mejoramiento de la solución usando búsqueda exhaustiva
 
@@ -145,7 +145,7 @@ En primer lugar, se identifica un potencial de mejoramiento en el recorrido de l
 
 Como en este cruce entran en juego 6 nodos, es posible permitirse usar búsqueda exhaustiva para buscar la mejor solución, ya que hay solo 720 combinaciones posibles.
 
-IMAGEN 3
+![image3](https://github.com/lopezemmanuel/Formula1_Optimization/assets/45053254/ddb092b5-40a8-4764-a537-4d7e31fbeae2)
 
 ```
 Complejidad: 24 posibles soluciones
@@ -176,7 +176,7 @@ Este es el punto más crítico ya que al recorrer los nodos 9-14 se crea un cruc
 
 Como en este cruce entran en juego 6 nodos, se puede permitir usar búsqueda exhaustiva para buscar la mejor solución, ya que hay solo 720 combinaciones posibles.
 
-IMAGEN 4
+![image4](https://github.com/lopezemmanuel/Formula1_Optimization/assets/45053254/4eed39d5-77c7-4d4b-9c47-9ecf6e3eb37e)
 
 ```
 Complejidad: 24 posibles soluciones
@@ -207,7 +207,7 @@ Similar al caso anterior, aunque sin un cruce, notamos potencial de mejora en es
 
 Como en este cruce entran en juego 6 nodos, se puede permitir  usar búsqueda exhaustiva para buscar la mejor solución, ya que hay solo 720 combinaciones posibles.
 
-IMAGEN 5
+![image5](https://github.com/lopezemmanuel/Formula1_Optimization/assets/45053254/a0fb1a88-5645-4bb2-8c2b-6aed07f72b5d)
 
 ```
 Complejidad: 24 posibles soluciones
@@ -253,7 +253,7 @@ Aplicando las mejoras encontradas utilizando búsqueda exhaustiva se llega a la 
 22. Suzuka, Japan
 23. Melbourne, Australia
 
-IMAGEN 6
+![image6](https://github.com/lopezemmanuel/Formula1_Optimization/assets/45053254/43e63694-d10a-4e40-b655-52cd95d9e22e)
 
 ```
 Total recorrido actual: 132163.47 Km
